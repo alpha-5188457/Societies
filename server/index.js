@@ -20,6 +20,8 @@ app.use(cors()); //???
 app.use('/posts', postRoutes); //express using ./route for posts as alias postRoutes
 app.use('/user', userRoutes);
 
+
+
 //const CONNECTION_URL = dotenv.CONNECTION_URL;
 const PORT = process.env.PORT || 4000;
 

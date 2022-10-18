@@ -58,7 +58,7 @@ const Home = () => {
                   <TextField
                     name="search"
                     variant="outlined"
-                    label="Search Memories"
+                    label="Search Events"
                     onKeyPress={handleKeyPress}
                     fullWidth
                     value={search}
@@ -79,7 +79,7 @@ const Home = () => {
                     <Paper className={classes.pagination} elevation={6} >
                       <Pagination page={page}/>
                     </Paper>
-                  )};
+                  )}
                   
                 </Grid>
               </Grid>
