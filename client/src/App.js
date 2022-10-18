@@ -1,6 +1,8 @@
+/* The state is a built-in React object that is used to contain data or information about the component.
+ A component's state can change over time; whenever it changes, the component re-renders. */
 import React from 'react';
 import { Container } from '@material-ui/core';
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'; // React Router DOM is an npm package that enables you to implement dynamic routing in a web app. It allows you to display pages and allow users to navigate them. It is a fully-featured client and server-side routing library for React.
 
 //user imports
 import PostDetails from './components/PostDetails/PostDetails';
